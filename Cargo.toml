@@ -7,5 +7,4 @@ edition = "2021"
 chrono = "0.4.38"
 serde = {version = "1.0.203", feature = ["derive"]}
 serde_json = "1.0.117"
-tokio = {version = "1.38.0", features = ["full"]}
 trait-variant = "0.1.2"
