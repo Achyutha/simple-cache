@@ -1,4 +1,4 @@
 pub mod implementations;
 pub mod simple_cache;
 
-pub use implementations::FsCache;
+pub use implementations::*;
