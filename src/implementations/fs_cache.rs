@@ -24,7 +24,7 @@ impl FsCache {
 }
 
 impl Cache for FsCache {
-    type Error = std::io::Error;
+    type Error = anyhow::Error;
     async fn set(
         &self,
         key: impl Hash,
